@@ -1,0 +1,27 @@
+# Business Insight Translator - Python Dependencies
+
+# Core ML Libraries
+transformers==4.35.0
+torch==2.0.0
+datasets==2.14.0
+
+# Evaluation
+evaluate==0.4.0
+rouge-score==0.1.2
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Training Optimization
+accelerate==0.24.0
+sentencepiece>=0.1.99
+
+# Optional (for local development)
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Python version requirement
+# python>=3.10
